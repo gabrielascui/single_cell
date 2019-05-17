@@ -50,4 +50,10 @@ remotes::install_github("UCSF-TI/fake-hdf5r")
 devtools::install_github(repo = 'satijalab/seurat', ref = 'release/3.0')
 library('Seurat')
 
+#### install UMAP in python ####
+
+pip install umap-learn
+
 ### More to come.
+
+
